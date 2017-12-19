@@ -16,7 +16,7 @@ header .container-header img{
 
 .container-header .search-bar{
 	position: absolute;
-	margin-left: 70%;
+	margin-left: 72.2%;
 }
 
 .container-header .search-bar input{
@@ -27,7 +27,6 @@ header .container-header img{
 }
 
 .container-header .search-bar button{
-	margin-left: 5px;
 	padding: 5px 15px;
 	font-size: 12.5px;
 	color: #fff;
@@ -85,39 +84,38 @@ a{
 }
  .products,
  .services{
-	margin-top: 20px;
-	width: 345px;
+	margin-top: 10px;
+	width: 346px;
 	display: inline-block;
-
 	vertical-align: top;
+	background-color: #ffa902;
 }
 
  .products img,
  .services img{
-	margin-right: 20px;
 	border-top: 4px solid #ffa902;
 	width: 100%;
+	margin-bottom: 0;
 }
 
  .products h5,
  .services h5{
-	width: 100%;
 	color: #fff;
-	padding: 7px 0;
+	padding: 7px 5px;
 	text-align: left;
-	background-color: #ffa902;
-	display: inline-block;
-	border: 0;
+	display: inline;
 	text-indent: 10px;
 }
 
 .products p,
 .services p{
 	width: 100%;
+	margin-top: 7px;
 	padding: 10px 0;
-	font-size: 11px;
+	font-size: 13px;
 	color: #444;
-	line-height: 15px;
+	background-color: #fff;
+	line-height: 20px;
 }
 
 .products:last-child,
@@ -125,14 +123,14 @@ a{
 	margin-right: 0;
 }
 
-.content a img{
+.content .pdf img{
 	margin: 20px 0;
 	width: 100%;
 }
 
 /*FOOTER*/
 .container footer{
-	width: 92%;
+	width: 92.43%;
 	background-color: #cc0000;
 	padding: 30px 0 30px 100px;
 	display: block;
